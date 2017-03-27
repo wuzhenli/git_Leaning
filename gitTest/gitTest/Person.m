@@ -11,7 +11,9 @@
 @implementation Person
 
 - (void)run {
-    NSLog(@"run:%s", __func__);
+    for (NSUInteger i = 0; i<5; i++) {
+        NSLog(@"run %lu:%s", i, __func__);
+    }
 }
 
 @end
