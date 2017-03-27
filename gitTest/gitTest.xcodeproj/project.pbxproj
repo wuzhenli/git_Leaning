@@ -15,6 +15,7 @@
 		CEC2BA201E889D650057DD0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC2BA1E1E889D650057DD0C /* LaunchScreen.storyboard */; };
 		CEC2BA2B1E889D650057DD0C /* gitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2BA2A1E889D650057DD0C /* gitTestTests.m */; };
 		CEC2BA361E889D650057DD0C /* gitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2BA351E889D650057DD0C /* gitTestUITests.m */; };
+		CEC2BA461E889DDC0057DD0C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC2BA451E889DDC0057DD0C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CEC2BA311E889D650057DD0C /* gitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC2BA351E889D650057DD0C /* gitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestUITests.m; sourceTree = "<group>"; };
 		CEC2BA371E889D650057DD0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC2BA441E889DDC0057DD0C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CEC2BA451E889DDC0057DD0C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CEC2BA0F1E889D640057DD0C /* gitTest */ = {
 			isa = PBXGroup;
 			children = (
+				CEC2BA431E889DCF0057DD0C /* Model */,
 				CEC2BA131E889D650057DD0C /* AppDelegate.h */,
 				CEC2BA141E889D650057DD0C /* AppDelegate.m */,
 				CEC2BA161E889D650057DD0C /* ViewController.h */,
@@ -138,6 +142,15 @@
 				CEC2BA371E889D650057DD0C /* Info.plist */,
 			);
 			path = gitTestUITests;
+			sourceTree = "<group>";
+		};
+		CEC2BA431E889DCF0057DD0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEC2BA441E889DDC0057DD0C /* Person.h */,
+				CEC2BA451E889DDC0057DD0C /* Person.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			files = (
 				CEC2BA181E889D650057DD0C /* ViewController.m in Sources */,
 				CEC2BA151E889D650057DD0C /* AppDelegate.m in Sources */,
+				CEC2BA461E889DDC0057DD0C /* Person.m in Sources */,
 				CEC2BA121E889D650057DD0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +528,7 @@
 				CEC2BA3C1E889D650057DD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC2BA3D1E889D650057DD0C /* Build configuration list for PBXNativeTarget "gitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +537,7 @@
 				CEC2BA3F1E889D650057DD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEC2BA401E889D650057DD0C /* Build configuration list for PBXNativeTarget "gitTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +546,7 @@
 				CEC2BA421E889D650057DD0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
